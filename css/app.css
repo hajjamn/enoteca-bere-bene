@@ -115,5 +115,13 @@ body {
 /* FOOTER */
 
 #footer {
-  background-color: lightgray;
+  margin-top: 150px;
+}
+
+#footer img {
+  height: 120px;
+}
+
+#footer .brands {
+  font-size: 20px;
 }
