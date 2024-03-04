@@ -45,7 +45,8 @@ body {
   margin: 15px 0;
 }
 
-#header .my-btn {
+#header .my-btn,
+#content .my-btn {
   background-color: #AC9970;
   color: white;
   font-weight: 700;
@@ -99,7 +100,16 @@ body {
 /* CONTENT */
 
 #content {
-  background-color: green;
+  margin-top: 250px;
+}
+
+#content .article::after {
+  content: "";
+  width: 50px;
+  border: 1px solid #AC9970;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 /* FOOTER */
