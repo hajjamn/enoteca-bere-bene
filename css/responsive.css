@@ -1,0 +1,7 @@
+/* SLIDER */
+
+@media (min-width: 768px) {
+  #slider {
+    height: calc(100vh - 100px);
+  }
+}

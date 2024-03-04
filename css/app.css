@@ -1,3 +1,44 @@
-h1 {
-  color: blue;
+/* HEADER */
+
+#header {
+  min-height: 100px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+#header .container {
+  height: 100px;
+}
+
+#header img {
+  height: 80px;
+}
+
+
+/* MODAL */
+
+#myModal {
+  display: none;
+  background-color: yellow;
+}
+
+/* SLIDER */
+
+#slider {
+  height: 600px;
+  width: 100%;
+  background-color: blue;
+}
+
+/* CONTENT */
+
+#content {
+  background-color: green;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: lightgray;
 }
