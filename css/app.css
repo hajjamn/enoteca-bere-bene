@@ -1,3 +1,8 @@
+body {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+}
+
 /* HEADER */
 
 #header {
@@ -12,9 +17,39 @@
 }
 
 #header img {
-  height: 80px;
+  height: 90px;
 }
 
+#header i {
+  font-size: 24px;
+  color: #AC9970;
+}
+
+#header .offcanvas {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#header .offcanvas ul {
+  color: white;
+  font-size: 26px;
+}
+
+#header .offcanvas ul a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+#header .offcanvas li {
+  margin: 15px 0;
+}
+
+#header .my-btn {
+  background-color: #AC9970;
+  color: white;
+  font-weight: 700;
+  border-radius: 0;
+  padding: 5px 14px;
+}
 
 /* MODAL */
 
